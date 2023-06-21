@@ -8,8 +8,10 @@
     padding: 0;
 }
 
-.flex {
-    display: flex;
+.hero_section,
+.section-about {
+    background-color: #1abc9c;
+    color: white;
 }
 
 /* Header */
@@ -25,15 +27,19 @@ nav {
 }
 
 /* HERO SECTION */
-.hero_section {
-    background-color: #1abc9c;
-    color: white;
-}
 
 .hero_avatar {
     width: 200px;
 }
 
 /* Main */
+
+.section-portfolio img {
+    width: 100%;
+}
+
+button {
+    width: max-content;
+}
 
 /* Footer */
