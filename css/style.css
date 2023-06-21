@@ -1,0 +1,22 @@
+:root {}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Header */
+
+/* Main */
+
+/* Footer */
