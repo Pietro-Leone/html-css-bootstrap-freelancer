@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --bs-emphasis-color-rgb: 255, 255, 255;
+}
 
 * {
     box-sizing: border-box;
@@ -10,12 +12,27 @@
     display: flex;
 }
 
-button {
-    border: none;
-    cursor: pointer;
+/* Header */
+
+/* NAV */
+
+nav {
+    background-color: #2c3e50;
 }
 
-/* Header */
+.ms_nav_right {
+    justify-content: flex-end;
+}
+
+/* HERO SECTION */
+.hero_section {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.hero_avatar {
+    width: 200px;
+}
 
 /* Main */
 
