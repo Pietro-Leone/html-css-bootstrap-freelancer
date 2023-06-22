@@ -52,6 +52,12 @@ button {
     width: max-content;
 }
 
+.border-custom {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
 /* Footer */
 
 footer {
@@ -65,11 +71,9 @@ footer {
 .social-icon i {
     width: 45px;
     height: 45px;
+    line-height: 45px;
     border: 1px solid white;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer-top a {
